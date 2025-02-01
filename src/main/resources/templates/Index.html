@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="../static/CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+
+        <!-- Add Todo Form -->
+        <div class="todo-form">
+            <input type="text" id="todoInput" placeholder="Enter your task..." />
+            <button id="addTaskButton" onclick="addTodo()">Add Task</button>
+        </div>
+
+        <!-- Task Counter -->
+        <div class="task-counter">
+            <p>Total Tasks: <span id="taskCount">0</span></p>
+            <p>Completed: <span id="completedCount">0</span></p>
+        </div>
+
+        <!-- View Options -->
+        <div class="view-options">
+            <button onclick="viewAll()" class="view-btn">All Tasks</button>
+            <button onclick="viewActive()" class="view-btn">Active</button>
+            <button onclick="viewCompleted()" class="view-btn">Completed</button>
+        </div>
+
+        <!-- Todo List -->
+        <ul id="todoList">
+            <!-- Todo items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="../static/JavaScript/script.js"></script>
+</body>
+</html>
