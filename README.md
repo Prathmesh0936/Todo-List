@@ -1,2 +1,6 @@
 # Todo-List
-- Created Spring Boot project with MySQL database - Implemented Todo entity, repository, service, and controller - Added CORS configuration for frontend integration - Developed frontend with HTML, CSS, and JavaScript - Implemented CRUD operations for Todo items - Added task filtering and counting functionality
+- Created Spring Boot project with MySQL database <br>
+- Implemented Todo entity, repository, service, and controller - Added CORS configuration for frontend integration <br>
+- Developed frontend with HTML, CSS, and JavaScript <br>
+- Implemented CRUD operations for Todo items<br>
+- Added task filtering and counting functionality
